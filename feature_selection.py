@@ -1,3 +1,8 @@
+# Warnings
+
+import warnings
+warnings.filterwarnings("ignore")
+
 # Label encoding snippet for categorical variables in a dataframe
 
 X = df.copy()
